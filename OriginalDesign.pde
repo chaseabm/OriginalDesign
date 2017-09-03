@@ -9,7 +9,7 @@ void setup()
 }
 void draw()
 {
-  stars();
+  galaxy();
   leftWing();
   rightWing();
   body();
@@ -61,7 +61,7 @@ void rightWing()
   rect(530, 150, 15, 300);
 }
 
-void stars()
+void galaxy()
 {
   while(stars <= 250)
   {
